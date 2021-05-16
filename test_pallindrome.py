@@ -8,5 +8,5 @@ class TestCase(unittest.TestCase):
 		self.assertEqual(pallindrome.pallindrome("atna"), "Not Pallindrome")
 
 	def test_enternum(self):
-		self.assertEqual(pallindrome.pallindrome(123), "Not Pallindrome")
+		self.assertEqual(pallindrome.pallindrome(123), "Enter string")
 

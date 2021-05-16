@@ -1,8 +1,12 @@
 
 def pallindrome(val):
-	rvs = val[::-1]
+	if isinstance(val, str):
+		rvs = val[::-1]
 
-	if val == rvs:
-		return "Pallindrome"
+		if val == rvs:
+			return "Pallindrome"
+		else:
+			return "Not Pallindrome"
 	else:
-		return "Not Pallindrome"
+		return "Enter string"
+
