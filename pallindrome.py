@@ -1,8 +1,8 @@
-val = input("Enter String")
-rvs = val[::-1]
 
-if val == rvs:
-	return "Pallindrome"
+def pallindrome(val):
+	rvs = val[::-1]
 
-else:
-	return "Not Pallindrome"
+	if val == rvs:
+		return "Pallindrome"
+	else:
+		return "Not Pallindrome"
